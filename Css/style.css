@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+h1{
+    font-size: 4rem;
+    font-family: Roboto;
+}
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0,.5),rgba(0, 0, 0, 0.5)) ,url(../images/pic1.png);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    margin-top: 20px;
+}
+.main-nav, .footer-nav, .social-nav{
+    list-style: none;
+    display: flex;
+}
+.main-nav li, .footer-nav li, .social-nav li{
+    padding: 0 15px;
+}
+.main-nav li a, .footer-nav li a, .social-nav li a{
+    text-decoration: none;
+    color: #008BCB;
+    text-transform: uppercase;
+}
+.main-nav li a:hover, .footer-nav li a:hover, .social-nav li a:hover{
+    text-decoration: underline;
+    color: #738D9C;
+}
+.box{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.button{
+    border: solid 1px #008BCB;
+    margin-right: 15px;
+    padding: 10px 20px;
+    color: #008BCB;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.button:hover{
+    color: #fff;
+    background-color: #738D9C;
+}
+section{
+    padding: 40px;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+hr{
+    width: 200px;
+    margin: 20px auto;
+    border: solid 2px #003C56;
+}
+.block{
+    text-align: center;
+}
+.block i{
+    font-size: 36px;
+    color: #003C56 ;
+    margin-bottom: 10px;
+}
+.block h3{
+    font-size: 24px;
+    color: #008BCB;
+    margin-bottom: 10px;
+}
+.block p{
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.doctors img{
+    height: 60px;
+    border-radius: 10%;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.doctors p{
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.doctors h4{
+    color: #738D9C;
+    margin-bottom: 10px;
+}
+.mdoctors{
+    padding: 0%;
+    background-color: black;
+    overflow: hidden;
+}
+.mdoctors img{
+    width: 100%;
+    margin-bottom: -5px;
+    opacity: .8;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.mdoctors img:hover{
+    opacity: 1;
+    transform:scale(1) ;
+}
+form{
+    margin-top: 25px;
+    margin-left: 50%;
+}
+input[type=text],
+input[type=email],
+input[type=date],
+select, textarea
+{
+    width: 400px;
+    padding: 10px;
+    border: solid #ccc 1px;
+    background-color: lightgrey;
+    border-radius: 3px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #008BCB;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px #003C56;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+button:hover{
+    background-color: white;
+    color: #003C56;
+}
+footer{
+    padding: 40px 0px;
+    background-color: #003C56;
+    color: #fff;
+
+}
+footer p{
+    margin-top: 30px;
+    text-align: center;
+}
